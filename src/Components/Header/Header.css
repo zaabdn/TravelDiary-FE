@@ -1,0 +1,80 @@
+.App-header {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-login {
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.Header {
+    width: 100%;
+    height: 74px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+.header-left {
+    float: left;
+    width: 230px;
+    height: 75px;
+    margin-left: 90px;
+    background: url('../../Images/Icon.png');
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-right {
+    float: right;
+    margin-top: 20px;
+    max-width: 20%;
+    margin-right: 90px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #2e86de;
+    margin-right: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: #2e86de;
+    color: white;
+}
+
+.btn-register {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background: #2e86de;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background: #2467ab;
+}
+
+.profile-header {
+    position: absolute;
+    right: 70px;
+    top: 15%;
+}
+
+.profile-header img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

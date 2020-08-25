@@ -1,0 +1,10 @@
+.App-bookmark {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: whitesmoke;
+}
+
+.group-book {
+  padding: 200px 0;
+}

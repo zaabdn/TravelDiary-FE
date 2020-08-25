@@ -1,0 +1,26 @@
+.kotak {
+    display: relative;
+    position: fixed;
+    right: 50px;
+    top: 70px;
+    background-color: #ffffff;
+    width: 200px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.list-dropdown {
+    height: 30px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+span {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}

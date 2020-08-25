@@ -1,0 +1,85 @@
+.group {
+  width: 100%;
+  max-height: 1500px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  margin-top: 60px;
+}
+
+.groups {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 70px;
+  margin: 0 auto;
+}
+
+.group-content {
+  max-height: 720px;
+  background: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.box .text {
+  position: absolute;
+  /* z-index: 999; */
+  margin: 0 auto;
+  right: 10px;
+  top: 20%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height */
+  float: right;
+  text-align: center;
+  background: white;
+  width: 50px;
+  color: black;
+  border-radius: 5px;
+}
+
+.group-content img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.group-content h4 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 5px auto 0;
+  text-align: left;
+}
+
+.story {
+  margin: 10px 20px 0;
+  color: grey;
+  text-align: justify;
+}
+
+.bookmark {
+  background: white;
+  position: relative;
+  margin-left: 250px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.bookmark img {
+  width: 15px;
+  height: 20px;
+}

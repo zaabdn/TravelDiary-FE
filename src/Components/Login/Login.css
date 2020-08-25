@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  width: 30%;
+  color: black;
+}
+
+.input-text {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.login-group {
+  margin-bottom: 30px;
+}
+
+.custom-input {
+  width: 100%;
+  height: 50px;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #d2d2d2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1rem;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.button {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  background: #2e86de;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #2e86de;
+}

@@ -1,0 +1,20 @@
+.App-profile {
+    width: 85.2%;
+    position: absolute;
+    top: 80px;
+    background: rgb(243, 243, 243);
+    padding: 80px 100px;
+    margin: auto;
+}
+
+.profile {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid #2e86de;
+}
+
+.group-book {
+    padding: 200px 0;
+}
